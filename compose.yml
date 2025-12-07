@@ -9,6 +9,9 @@ services:
       DISK_SIZE: "380G"
       USERNAME: "MasR"
       PASSWORD: "adminr"
+      REGION: "id_ID"
+      KEYBOARD: "en_US"
+      EDITION: "core"
     devices:
       - /dev/kvm
       - /dev/net/tun
