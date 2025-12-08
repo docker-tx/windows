@@ -3,16 +3,16 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "7u"
+      VERSION: "2025"
       RAM_SIZE: "12G"
       CPU_CORES: "8"
-      DISK_SIZE: "1024G"
+      DISK_SIZE: "1064G"
       DISK_SIZE2: "526G"
       DISK_SIZE3: "526G"
       USERNAME: "MasR"
       PASSWORD: "adminr"
       REGION: "id_ID"
-      KEYBOARD: "en_US"
+      KEYBOARD: "id_ID"
     devices:
       - /dev/kvm
       - /dev/net/tun
