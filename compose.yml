@@ -6,9 +6,7 @@ services:
       VERSION: "2025"
       RAM_SIZE: "12G"
       CPU_CORES: "8"
-      DISK_SIZE: "3072G"
-      DISK_SIZE2: "526G"
-      DISK_SIZE3: "526G"
+      DISK_SIZE: "526G"
       USERNAME: "MasR"
       PASSWORD: "adminr"
       REGION: "id-ID"
@@ -25,7 +23,5 @@ services:
       - 3389:3389
     volumes:
       - ./windows:/storage
-      - ./windows2:/storage2
-      - ./windows3:/storage3
     restart: always
     stop_grace_period: 100m
